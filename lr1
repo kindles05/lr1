@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace лр1_Кузькина
+{
+class Program
+{
+private const double V = 10.6;
+
+static void Main(string[] args)
+{
+sbyte k = 10;
+sbyte v = Math.Abs(k);
+//Console.WriteLine("modul k = " + v);
+sbyte a = 5, b = 18;
+sbyte max = Math.Max(a, b);
+//Console.WriteLine("max = " + max);
+double n = 25;
+double N = Math.Sqrt(n);
+//Console.WriteLine("корень n = " + N);
+double r = 10.6;
+double l = Math.Truncate(r);
+//Console.WriteLine("целая часть числа = " + l);
+const double e = 2.718;
+int x = 1 / 2;
+double cos = (Math.Pow(e, x) + Math.Pow(e, -x)) / 2;
+Console.WriteLine("cos(x) = " + cos);
+
+}
+
+
+}
+}
